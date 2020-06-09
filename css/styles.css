@@ -2,6 +2,12 @@
     display: flex;
 }
 
+img {
+    height: 300px
+    width 100%;
+    object-fit: contain;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 576px) {
     .overlay {
